@@ -16,7 +16,7 @@ const apiRouter = require("./routes/api");
 const webSocket = require("./socket");
 
 const app = express();
-app.set("PORT", process.env.PORT || 3085);
+app.set("PORT", process.env.PORT || 3095);
 sequelize
   .sync()
   .then(() => {
@@ -40,7 +40,7 @@ if (prod) {
     })
   );
 }
-//app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public")));
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -61,14 +61,14 @@ app.use(session(sessionOption));
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.get("/", (req, res) => {
-  res.send("hello sleack");
-});
+// app.get("/", (req, res) => {
+//   res.send("hello sleack");
+// });
 
 app.use("/api", apiRouter);
-// app.get("*", (req, res, next) => {
-//   res.sendFile(path.join(__dirname, "public", "index.html"));
-// });
+app.get("*", (req, res, next) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
 
 const server = app.listen(app.get("PORT"), () => {
   console.log(`listening on port ${app.get("PORT")}`);
