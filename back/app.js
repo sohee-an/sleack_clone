@@ -35,7 +35,7 @@ if (prod) {
   app.use(morgan("dev"));
   app.use(
     cors({
-      origin: true,
+      origin: ["http://15.165.236.24", "http://asosleack.coding-factory.co.kr"],
       credentials: true,
     })
   );
