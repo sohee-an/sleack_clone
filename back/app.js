@@ -61,10 +61,6 @@ app.use(session(sessionOption));
 app.use(passport.initialize());
 app.use(passport.session());
 
-// app.get("/", (req, res) => {
-//   res.send("hello sleack");
-// });
-
 app.use("/api", apiRouter);
 app.get("*", (req, res, next) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
