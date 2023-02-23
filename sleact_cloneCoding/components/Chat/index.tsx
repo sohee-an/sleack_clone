@@ -10,11 +10,11 @@ interface Props {
   data: IDM | IChat;
 }
 
-const BACK_URL = process.env.NODE_ENV === 'development' ? 'http://localhost:3095' : 'https://sleact.nodebird.com';
+const BACK_URL = process.env.NODE_ENV === 'development' ? 'http://localhost:3095' : 'http://43.201.108.188';
 const Chat: VFC<Props> = ({ data }) => {
   const { workspace } = useParams<{ workspace: string; channel: string }>();
   const user = 'Sender' in data ? data.Sender : data.User;
-
+  console.log('chatdata position chat', data);
   const result = useMemo(
     () =>
       // uploads\\서버주소

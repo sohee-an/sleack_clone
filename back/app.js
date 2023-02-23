@@ -35,11 +35,12 @@ if (prod) {
   app.use(morgan("dev"));
   app.use(
     cors({
-      origin: ["http://15.165.236.24", "http://asosleack.coding-factory.co.kr"],
+      origin: true,
       credentials: true,
     })
   );
 }
+
 app.use(express.static(path.join(__dirname, "public")));
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use(express.json());

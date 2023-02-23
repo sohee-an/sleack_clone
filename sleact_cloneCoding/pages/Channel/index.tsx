@@ -18,6 +18,7 @@ const Channel = () => {
   const { data: myData } = useSWR('/api/users', fetcher);
   const [chat, onChangeChat, setChat] = useInput('');
   const { data: channelData } = useSWR<IChannel>(`/api/workspaces/${workspace}/channels/${channel}`, fetcher);
+  console.log('chadata', channelData);
   const {
     data: chatData,
     mutate: mutateChat,
