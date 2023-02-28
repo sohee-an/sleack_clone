@@ -9,7 +9,7 @@ socket과 리액트 타입스크립트를 사용하여 슬랙클론코딩 홈페
 - soket
 - react
 
-- nest
+
 - DB: MYSQL
 - aws(ec2) 배포 
 
