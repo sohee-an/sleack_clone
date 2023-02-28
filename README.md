@@ -27,6 +27,11 @@ API.MD에 라우터 주소 있음
   ![](slack-chat.gif)
 
   ![](slack-imgupload.gif)
+  
+  
+  - 채널생성 
+  - 워크스페이스 생성
+  - 일반채팅안에 몇명 있는지 확인가능
 
   ![](slackmain.gif)
 
