@@ -11,6 +11,7 @@ socket과 리액트 타입스크립트를 사용하여 슬랙클론코딩 홈페
 
 - nest
 - DB: MYSQL
+- aws(ec2) 배포 
 
 ## back 
 API.MD에 라우터 주소 있음
