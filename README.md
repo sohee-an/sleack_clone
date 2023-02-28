@@ -8,7 +8,7 @@ socket과 리액트 타입스크립트를 사용하여 슬랙클론코딩 만들
 - typescript
 - soket
 - react
-- 
+- useSWR
 
 
 - DB: MYSQL
