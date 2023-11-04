@@ -1,8 +1,9 @@
 # ✨서비스 소개
 
 ## sleck_clone
-
+socket과 리액트 타입스크립트를 사용하여 슬랙클론코딩 만들기
 <div align="middle">
+
 
 
   ![](slack-chat.gif)
@@ -34,7 +35,7 @@
    </div>
 <br>
 <br>
-socket과 리액트 타입스크립트를 사용하여 슬랙클론코딩 만들기
+
 
 <br>
 <br>
