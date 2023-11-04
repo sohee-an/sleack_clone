@@ -30,7 +30,8 @@
     
 <img src="https://img.shields.io/badge/mysql-007FFF?style=for-the-badge&logo=mysql&logoColor=white">
 <img src="https://img.shields.io/badge/aws-C43BAD?style=for-the-badge&logo=aws&logoColor=white">
-   
+
+   </div>
 <br>
 <br>
 socket과 리액트 타입스크립트를 사용하여 슬랙클론코딩 만들기
