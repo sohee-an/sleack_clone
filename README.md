@@ -1,18 +1,42 @@
-# 프로젝트 목적
+# ✨서비스 소개
 
+## sleck_clone
+
+<div align="middle">
+
+
+  ![](slack-chat.gif)
+    
+
+
+    
+</div>
+
+
+
+<br>
+<br>
+
+# ⚙ 기술스택
+
+<div align="middle">
+
+<img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white">
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+<img src="https://img.shields.io/badge/reactrouter-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white">
+<img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
+<img src="https://img.shields.io/badge/useSWR-007?style=for-the-badge&logo=useSWR&logoColor=white">
+<img src="https://img.shields.io/badge/socket-007FF?style=for-the-badge&logo=socket&logoColor=white">
+    
+<img src="https://img.shields.io/badge/mysql-007FFF?style=for-the-badge&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/aws-C43BAD?style=for-the-badge&logo=aws&logoColor=white">
+   
+<br>
+<br>
 socket과 리액트 타입스크립트를 사용하여 슬랙클론코딩 만들기
 
-# 기술 스펙
-
-- node.js
-- typescript
-- soket
-- react
-- useSWR
-
-
-- DB: MYSQL
-- aws(ec2) 배포 
+<br>
+<br>
 
 ## back 
 API.MD에 라우터 주소 있음
